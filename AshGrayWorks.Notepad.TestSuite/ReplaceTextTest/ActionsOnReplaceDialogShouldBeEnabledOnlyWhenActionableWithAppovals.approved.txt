@@ -1,0 +1,27 @@
+﻿Initial State =
+{
+Replace What: []	[Find Next X]
+Replace With: []	[Replace X]
+                   	[Replace All X]
+                   	[Cancel: O]
+
+}
+
+'Find What' contains value, so all buttons should be enabled =
+{
+Replace What: [a]	[Find Next O]
+Replace With: []	[Replace O]
+                   	[Replace All O]
+                   	[Cancel: O]
+
+}
+
+If 'Find What' has cleaned, all buttons need to disabled again =
+{
+Replace What: []	[Find Next X]
+Replace With: []	[Replace X]
+                   	[Replace All X]
+                   	[Cancel: O]
+
+}
+
